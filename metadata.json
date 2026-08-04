@@ -1,0 +1,6 @@
+{
+  "name": "Al-Nur Import & Export Industrial Group PLC",
+  "description": "Sovereign Industrial Platform for SAFE Electric Wire & Cables, German LIPER Lighting, and Global Agricultural Trade Synergy",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

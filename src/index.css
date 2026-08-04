@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #0D1216;
+    color: #F1F5F9;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Color Tokens */
+:root {
+  --color-charcoal-dark: #0D1216;
+  --color-charcoal-surface: #141A20;
+  --color-charcoal-card: #182028;
+  --color-charcoal-border: #283440;
+  --color-amber-accent: #C9793A;
+  --color-amber-light: #D0884A;
+  --color-amber-dark: #A35E26;
+}
+
+.bg-forest { background-color: #141A20; }
+.bg-forest-dark { background-color: #0D1216; }
+.bg-forest-light { background-color: #283440; }
+.text-forest { color: #F1F5F9; }
+.text-forest-dark { color: #CBD5E1; }
+.text-forest-light { color: #94A3B8; }
+.border-forest { border-color: #283440; }
+.border-forest-dark { border-color: #1E2832; }
+
+.bg-copper { background-color: #C9793A; }
+.bg-copper-dark { background-color: #A35E26; }
+.bg-copper-light { background-color: #182028; }
+.text-copper { color: #C9793A; }
+.text-copper-dark { color: #A35E26; }
+.text-copper-light { color: #D0884A; }
+.border-copper { border-color: #C9793A; }
+
+/* Custom Industrial Card matching Dark Charcoal + Amber Accent Theme */
+.clean-card {
+  background: #141A20;
+  border: 1px solid #283440;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.clean-card:hover {
+  border-color: #D0884A;
+  box-shadow: 0 8px 30px rgba(208, 136, 74, 0.18);
+}
+
+/* Copper / Amber Accent Button */
+.btn-copper {
+  background-color: #C9793A;
+  color: #FFFFFF;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(201, 121, 58, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn-copper:hover {
+  background-color: #D0884A;
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(208, 136, 74, 0.4);
+  transform: translateY(-1px);
+}
+
+/* Charcoal Button */
+.btn-forest {
+  background-color: #182028;
+  color: #FFFFFF;
+  font-weight: 700;
+  border: 1px solid #283440;
+  transition: all 0.2s ease;
+}
+
+.btn-forest:hover {
+  background-color: #202A34;
+  border-color: #D0884A;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D1216;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #283440;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D0884A;
+}
