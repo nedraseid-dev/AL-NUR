@@ -43,68 +43,6 @@ export const HomeView: React.FC<HomeViewProps> = ({
         onSelectTab={onSelectTab}
       />
 
-      {/* MEET THE 4 FOUNDERS SECTION */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-[#D0884A] font-black text-xs uppercase tracking-widest bg-[#141A20] border border-[#283440] px-4 py-1.5 rounded-full shadow-xs">
-            LEADERSHIP & VISION
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-black text-white font-serif mt-4">
-            Meet Our 4 Founding Directors
-          </h2>
-          <p className="text-slate-300 text-sm sm:text-base mt-2">
-            In 2006, four pioneering Ethiopian entrepreneurs joined expertise in metallurgy, global trade, electrical engineering, and corporate strategy to establish Al-Nur Industrial Group PLC.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {FOUNDERS_DATA.map((founder, idx) => (
-            <div 
-              key={idx} 
-              className="clean-card p-8 rounded-2xl flex flex-col justify-between hover:border-[#D0884A] transition-all space-y-6"
-            >
-              <div className="space-y-4">
-                <div className="flex items-start justify-between">
-                  <div className="flex items-center space-x-4">
-                    <div className="w-14 h-14 rounded-2xl bg-[#0D1216] text-[#D0884A] font-serif font-black text-xl flex items-center justify-center border border-[#283440] shrink-0 shadow-md">
-                      {founder.name.split(' ').map(n => n[0]).slice(0, 2).join('')}
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-bold text-white font-serif leading-snug">
-                        {founder.name}
-                      </h3>
-                      <p className="text-xs font-bold text-[#D0884A]">
-                        {founder.role}
-                      </p>
-                      <span className="text-[11px] font-mono text-slate-400">
-                        {founder.experience}
-                      </span>
-                    </div>
-                  </div>
-
-                  <Users className="w-5 h-5 text-[#D0884A]" />
-                </div>
-
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  {founder.bio}
-                </p>
-
-                {founder.quote && (
-                  <div className="bg-[#182028] text-slate-200 p-4 rounded-xl border-l-4 border-[#D0884A] italic text-xs">
-                    "{founder.quote}"
-                  </div>
-                )}
-              </div>
-
-              <div className="pt-3 border-t border-[#283440] flex items-center justify-between text-[11px] text-slate-400 font-medium">
-                <span className="font-semibold text-white">Al-Nur Founding Director</span>
-                <span className="text-[#D0884A] font-bold">Tatek Plant Leadership</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Interactive 4 Divisions Showcase ("What We Support" / "What Al-Nur Offers") */}
       <WhatWeSupportSection 
         onSelectTab={onSelectTab} 
