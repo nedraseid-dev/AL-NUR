@@ -85,7 +85,7 @@ export const ContactView: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-[#D0884A] shrink-0" />
-                <span>+251 91 120 4589 (Sales & Orders)</span>
+                <span>+251 93 003 4330 (Sales & Orders)</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-[#D0884A] shrink-0" />
@@ -96,7 +96,7 @@ export const ContactView: React.FC = () => {
             <div className="pt-3 border-t border-[#283440] space-y-2 text-xs text-slate-300 font-medium">
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="mailto:info@alnur-group.com" className="hover:text-[#D0884A]">info@alnur-group.com</a>
+                <a href="mailto:info@alnur-group.com" className="hover:text-[#D0884A]">alnurimportexport@gmail.com</a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
