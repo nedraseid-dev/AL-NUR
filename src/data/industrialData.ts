@@ -44,28 +44,28 @@ export const COMPANY_INFO = {
 
 export const FOUNDERS_DATA: Founder[] = [
   {
-    name: "Hajji Nur Mohammed Ali",
+    name: "ATO ABDU MUZYIN",
     role: "Co-Founder & Chairman",
-    bio: "With over 30 years of industrial experience in electrical trading and manufacturing, Hajji Nur spearheaded the vision to build local Ethiopian cable manufacturing capability, reducing reliance on imported wiring.",
+    bio: "With over 30 years of industrial experience in electrical trading and manufacturing, Ato Abdu spearheaded the vision to build local Ethiopian cable manufacturing capability, reducing reliance on imported wiring.",
     quote: "Building local manufacturing excellence is not just a business; it is a duty to protect Ethiopian homes with safe electrical infrastructure.",
     experience: "30+ Years Industry Leadership"
   },
   {
-    name: "Eng. Tesfaye Wolde Mariam",
+    name: "ATO MOHAMMED MUZYIN",
     role: "Co-Founder & Chief Technical Officer",
     bio: "A senior metallurgical and electrical engineer with specialized training in continuous wire extrusion from Germany and Switzerland, directing precision manufacturing at our 35,000m² Tatek facility.",
     quote: "Zero compromise on copper purity. 99.98% virgin copper is the baseline for safety and minimal power resistance.",
     experience: "25+ Years Electrical Engineering"
   },
   {
-    name: "Sheikh Kedir Ibrahim",
+    name: "W/RO SENYA MUZYIN",
     role: "Co-Founder & Director of International Trade",
     bio: "Architect of Al-Nur's dual-engine import/export synergy, establishing direct agricultural export channels for Ethiopian coffee and sesame to generate sovereign foreign currency reserves.",
     quote: "Exporting our rich agricultural wealth creates the sustainable foreign exchange needed to import world-class raw materials.",
     experience: "28+ Years Global Trade"
   },
   {
-    name: "Ato Dawit Solomon",
+    name: "ATO DAWIT SOLOMON",
     role: "Co-Founder & Director of Operations & Strategy",
     bio: "Directing commercial strategy, corporate governance, and nationwide distribution logistics across Ethiopia, establishing our Somale Tera central sales hub and regional industrial partnerships.",
     quote: "Every wire reel bearing the SAFE® brand represents reliability, ECAE compliance, and Ethiopian craftsmanship.",
