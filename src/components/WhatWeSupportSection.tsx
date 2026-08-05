@@ -152,9 +152,6 @@ export const WhatWeSupportSection: React.FC<WhatWeSupportSectionProps> = ({
         <h2 className="text-3xl sm:text-4xl font-black text-white font-serif mt-3">
           What Al-Nur Industrial Offers
         </h2>
-        <p className="text-slate-300 text-sm sm:text-base mt-2">
-          Hover over each division below to reveal detailed machinery capabilities, quality guarantees, and manufacturing support.
-        </p>
       </div>
 
       {/* Desktop & Tablet Interactive 4-Column Layout */}

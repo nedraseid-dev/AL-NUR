@@ -32,8 +32,6 @@ interface HeroSectionProps {
 interface Slide {
   id: string;
   image: string;
-  badge: string;
-  badgeIcon: React.ReactNode;
   titlePrefix: string;
   titleHighlight: string;
   titleSuffix: string;
@@ -52,8 +50,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       id: 'panel-control',
       image: opticalProjectorLabImg,
-      badge: '35,000 m² Tatek Complex • ECAE Standard',
-      badgeIcon: <ShieldCheck className="w-4 h-4 text-emerald-400" />,
       titlePrefix: 'Sovereign Industrial ',
       titleHighlight: 'SAFE® Cable Extrusion',
       titleSuffix: ' & Copper Manufacturing',
@@ -64,8 +60,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       id: 'multimeter-testing',
       image: caliperInspectionImg,
-      badge: 'ECAE License #140089 • CES 111:2013 Verified',
-      badgeIcon: <Award className="w-4 h-4 text-[#D0884A]" />,
       titlePrefix: 'Precision Quality ',
       titleHighlight: 'Control & Voltage QA',
       titleSuffix: ' Testing Lab',
@@ -76,8 +70,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       id: 'sparking-cable',
       image: pvcDrumsImg,
-      badge: 'High Voltage Conductor Barrier Safety',
-      badgeIcon: <Zap className="w-4 h-4 text-[#C9793A]" />,
       titlePrefix: 'Heavy Duty ',
       titleHighlight: 'Low-Voltage Power',
       titleSuffix: ' Cable Engineering',
@@ -88,8 +80,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       id: 'lightbulb-growth',
       image: lightbulbChartImg,
-      badge: 'German Lighting Technology Partnership',
-      badgeIcon: <Zap className="w-4 h-4 text-[#C9793A]" />,
       titlePrefix: 'German LIPER® ',
       titleHighlight: 'Industrial LED & Solar',
       titleSuffix: ' Urban Luminaires',
@@ -100,8 +90,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       id: 'warehouse',
       image: solidWiresImg,
-      badge: 'National Industrial Distribution Engine',
-      badgeIcon: <Building2 className="w-4 h-4 text-amber-400" />,
       titlePrefix: 'Streamlined ',
       titleHighlight: 'Logistics & Supply',
       titleSuffix: ' Chain Hub',
@@ -112,8 +100,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       id: 'shipping-hub',
       image: shippingHubImg,
-      badge: 'Sovereign Foreign Exchange Synergy Engine',
-      badgeIcon: <Globe2 className="w-4 h-4 text-sky-400" />,
       titlePrefix: 'Global Agro-Trade ',
       titleHighlight: 'Forex Recycling',
       titleSuffix: ' & Export Synergy',
@@ -219,12 +205,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             transition={{ duration: 0.4 }}
             className="max-w-3xl space-y-6"
           >
-            {/* Top Badge */}
-            <div className="inline-flex items-center space-x-2 bg-[#182028]/95 backdrop-blur-md border border-[#C9793A]/50 text-[#D0884A] px-4 py-1.5 rounded-full text-xs font-bold tracking-wide shadow-xl">
-              {currentSlide.badgeIcon}
-              <span>{currentSlide.badge}</span>
-            </div>
-
             {/* Dynamic Headline */}
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight font-serif text-white leading-[1.12]">
               {currentSlide.titlePrefix} <br className="hidden sm:inline" />

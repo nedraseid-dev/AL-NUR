@@ -126,11 +126,11 @@ export const Footer: React.FC<FooterProps> = ({
               </div>
               <div className="flex items-start space-x-2">
                 <Phone className="w-4 h-4 text-[#D0884A] shrink-0 mt-0.5" />
-                <span>+251 11 369 8844 / +251 91 120 4589</span>
+                <span>+251 11 369 8844 / +251 93 03 4330</span>
               </div>
               <div className="flex items-start space-x-2">
                 <Mail className="w-4 h-4 text-[#D0884A] shrink-0 mt-0.5" />
-                <span>info@alnur-group.com</span>
+                <span>alnurimportexport@gmail.com</span>
               </div>
             </div>
           </div>
@@ -141,13 +141,6 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="pt-8 border-t border-[#283440] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-300 font-mono">
           <div>
             © 2006–{new Date().getFullYear()} AL-NUR IMPORT AND EXPORT INDUSTRIAL GROUP PLC.
-          </div>
-          <div className="flex items-center space-x-4">
-            <span>CES 111:2013</span>
-            <span>•</span>
-            <span>ES IEC 60227 / 60502</span>
-            <span>•</span>
-            <span className="text-[#D0884A] font-bold">ETHIOPIA</span>
           </div>
         </div>
 

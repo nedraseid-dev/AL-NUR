@@ -55,9 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <h1 className="text-lg font-extrabold tracking-tight text-white group-hover:text-[#D0884A] transition-colors">
               AL-NUR <span className="text-[#D0884A] font-sans font-bold text-xs uppercase tracking-wider ml-1">INDUSTRIAL GROUP</span>
             </h1>
-            <p className="text-[11px] font-medium text-slate-300">
-              SAFE® Cables • LIPER® Lighting • Agro Trade
-            </p>
+           
           </div>
         </div>
 
