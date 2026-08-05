@@ -34,11 +34,9 @@ export const ContactView: React.FC = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12 bg-[#0D1216]">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto">
-        <span className="text-white font-bold text-xs uppercase tracking-widest bg-[#C9793A] border border-[#A85E28] px-4 py-1.5 rounded-full shadow-xs">
-          DIRECT PROCUREMENT & CONTACT
-        </span>
+        
         <h1 className="text-3xl sm:text-5xl font-black text-white font-serif mt-4">
-          Get in Touch & Submit Official RFQ
+          CONTACT US
         </h1>
         <p className="text-slate-300 text-sm sm:text-base mt-2">
           Connect with our corporate sales team at Somale Tera or technical engineers at Tatek Industrial Plant.

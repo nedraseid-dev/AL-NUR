@@ -93,11 +93,9 @@ export const GalleryView: React.FC = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10 bg-[#0D1216]">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto">
-        <span className="text-white font-bold text-xs uppercase tracking-widest bg-[#C9793A] border border-[#A85E28] px-4 py-1.5 rounded-full shadow-xs">
-          INDUSTRIAL PHOTOGRAPHY & QA GALLERY
-        </span>
+        
         <h1 className="text-3xl sm:text-5xl font-black text-white font-serif mt-4">
-          Manufacturing Plant, QA Lab & SAFE® Cable Catalog
+          OUR GALLERY
         </h1>
         <p className="text-slate-300 text-sm sm:text-base mt-2">
           Inside look at our 35,000 m² Tatek cable facility, optical projector inspection labs, digital caliper quality testing, wooden reel storage, and warehouse inventory.

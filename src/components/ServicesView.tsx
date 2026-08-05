@@ -23,7 +23,6 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
     {
       icon: <Zap className="w-6 h-6 text-[#D0884A]" />,
       title: "Custom Cable Extrusion & Wire Drawing",
-      subtitle: "0.75 mm² up to 300 mm² Low Voltage Power Conductors",
       description: "Our Tatek 35,000m² manufacturing facility operates continuous high-speed drawing machines that extrude 99.98% virgin copper rod feedstock into single-core and multi-core cables with customized flame retardant PVC jacket thickness.",
       highlights: [
         "Single-core building wires (H07V-R, H07V-K)",
@@ -37,7 +36,6 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
     {
       icon: <ShieldCheck className="w-6 h-6 text-emerald-400" />,
       title: "ECAE Quality Assurance & Laboratory Spark Testing",
-      subtitle: "CES 111:2013 & ES IEC 60227/60502 Certification",
       description: "Every cable reel manufactured at Tatek undergoes 100% optical pinhole inspection, 3,500V high-voltage spark testing, and micro-ohm resistance verification to guarantee absolute dielectric integrity.",
       highlights: [
         "Batch-specific ECAE lab test certificates included with every shipment",
@@ -51,7 +49,6 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
     {
       icon: <Truck className="w-6 h-6 text-[#D0884A]" />,
       title: "Heavy Wooden Reel Packaging & Site Logistics",
-      subtitle: "Direct On-Site Delivery to Mega Construction Projects",
       description: "We supply pre-measured cable drums and wooden spools delivered directly to project sites across Addis Ababa, Sheger City, Hawassa, Dire Dawa, Bahir Dar, and regional industrial parks with heavy crane unloading equipment.",
       highlights: [
         "100m sealed coils, 500m wooden drums, 1,000m master reels",
@@ -65,7 +62,6 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
     {
       icon: <Globe2 className="w-6 h-6 text-[#D0884A]" />,
       title: "Dual-Engine Foreign Exchange Trade Synergy",
-      subtitle: "Agro-Export Currency Recycling for Raw Material Imports",
       description: "By exporting premium Ethiopian Grade-1 specialty coffee, sesame, and oilseeds internationally, Al-Nur Group generates independent foreign exchange reserves that directly fund virgin copper and PVC granule import shipments.",
       highlights: [
         "Zero foreign exchange bottlenecks for project contracts",
@@ -82,11 +78,8 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12 bg-[#0D1216]">
       {/* Header Title */}
       <div className="text-center max-w-3xl mx-auto">
-        <span className="text-white font-bold text-xs uppercase tracking-widest bg-[#C9793A] border border-[#A85E28] px-4 py-1.5 rounded-full shadow-xs">
-          INDUSTRIAL CAPABILITIES
-        </span>
         <h1 className="text-3xl sm:text-5xl font-black text-white font-serif mt-4">
-          Manufacturing Services & Engineering Solutions
+          OUR SERVICE
         </h1>
         <p className="text-slate-300 text-sm sm:text-base mt-2">
           End-to-end industrial cable manufacturing, quality testing, and national logistics backed by 30+ years of Ethiopian industrial leadership.

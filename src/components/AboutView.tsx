@@ -38,15 +38,6 @@ export const AboutView: React.FC<AboutViewProps> = ({
         </div>
         
         <div className="relative z-10 max-w-4xl space-y-4">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="bg-[#C9793A] text-white px-3.5 py-1 rounded-full text-xs font-mono font-black">
-              OFFICIAL COMPANY PROFILE & HISTORY
-            </span>
-            <span className="bg-[#182028] text-[#D0884A] border border-[#283440] px-3 py-1 rounded-full text-xs font-mono font-bold">
-              Est. 2006 • 99.9% Virgin Copper
-            </span>
-          </div>
-
           <h1 className="text-3xl sm:text-5xl font-black font-serif leading-tight">
             About Al-Nur Import & Export <br />
             <span className="text-[#D0884A]">Industrial Group PLC</span>
@@ -81,10 +72,6 @@ export const AboutView: React.FC<AboutViewProps> = ({
         {/* Profile Card 1 */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-6">
-            <div className="inline-flex items-center space-x-2 bg-[#C9793A] text-white px-3.5 py-1 rounded-full text-xs font-black">
-              <span>BROCHURE PAGE 2 • COMPANY PROFILE</span>
-            </div>
-
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white font-serif leading-snug">
               From Multi-Sector Trading to Sovereign Cable Extrusion
             </h2>
@@ -177,9 +164,7 @@ export const AboutView: React.FC<AboutViewProps> = ({
         <div className="clean-card p-8 sm:p-10 rounded-3xl border border-[#283440] space-y-8 bg-[#141A20]">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#283440] pb-6">
             <div>
-              <span className="text-xs font-black text-white uppercase tracking-wider bg-[#182028] border border-[#283440] px-3.5 py-1 rounded-full">
-                BROCHURE PAGE 3 • TECHNICAL INTRODUCTION & BRANDS
-              </span>
+              
               <h2 className="text-2xl sm:text-3xl font-black text-white font-serif mt-3">
                 Low Voltage Power Cable Engineering & Sister Brands
               </h2>
@@ -297,7 +282,6 @@ export const AboutView: React.FC<AboutViewProps> = ({
                 </div>
 
                 <div className="pt-3 border-t border-[#283440] flex items-center justify-between text-[11px] text-slate-400 font-medium">
-                  <span className="font-semibold text-white">Al-Nur Founding Family Director</span>
                   <span className="text-[#D0884A] font-bold">Sheger City Tatek Leadership</span>
                 </div>
               </div>

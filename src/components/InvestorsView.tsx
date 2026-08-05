@@ -19,11 +19,9 @@ export const InvestorsView: React.FC<InvestorsViewProps> = ({
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12 bg-[#0D1216]">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto">
-        <span className="text-white font-bold text-xs uppercase tracking-widest bg-[#C9793A] border border-[#A85E28] px-4 py-1.5 rounded-full shadow-xs">
-          SOVEREIGN COMPLIANCE & INVESTORS
-        </span>
+        
         <h1 className="text-3xl sm:text-5xl font-black text-white font-serif mt-4">
-          ECAE License #140089 & Capital Growth Portal
+          INVESTERS
         </h1>
         <p className="text-slate-300 text-sm sm:text-base mt-2">
           Backed by 35,000 m² industrial real estate assets, Ethiopian Electric Utility supplier contracts, and foreign exchange agro-trade recycling.
